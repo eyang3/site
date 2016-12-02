@@ -4,11 +4,11 @@
 
 # Site
 title: EmSpace
-subtitle: Musings of a Data Weenie
-description:
+subtitle: Musings on Data Science and Software Development
+description: My Development Blog
 author: Eric Yang
-language: English
-timezone: EST
+language: en
+timezone: America/New_York
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
