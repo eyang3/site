@@ -3,7 +3,7 @@ title: Which Congressional Districts are Competitive
 date: 2017-02-19 12:44:40
 tags: Other
 ---
-Hello World
+For the 2018 Elections, the districts in pink are those that are strongly Republican based on voter registration. The ones in light blue are strongly democratic. The ones in dark purple are the ones that are currently held by Republicans, but have a Partisan Voter Index (PVI) under 4, which means that with a good ground campaign, would be well within the realm of possibility to flip. There are a total of 33 nominally competitive seats which is sufficient to flip control of the House of Representatives from Republican to Democrat. 
 {% raw %}
 <style>
 
@@ -44,7 +44,7 @@ path {
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
 $(function(){
-var width = 960,
+var width = 800,
     height = 600;
 
 var projection = d3.geo.albersUsa()
