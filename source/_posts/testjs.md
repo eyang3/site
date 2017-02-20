@@ -4,6 +4,11 @@ date: 2017-02-19 12:44:40
 tags: Other
 ---
 For the 2018 Elections, the districts in pink are those that are strongly Republican based on voter registration. The ones in light blue are strongly democratic. The ones in dark purple are the ones that are currently held by Republicans, but have a Partisan Voter Index (PVI) under 4, which means that with a good ground campaign, would be well within the realm of possibility to flip. There are a total of 33 nominally competitive seats which is sufficient to flip control of the House of Representatives from Republican to Democrat. 
+
+-- Update
+
+Blindly grabbing data from Wikipedia is dumb. Previous map had old data of the 114th Congress. Current map is of the 115th congress. Some updates are that I've added in the Representative's name, as well as listed the open seats due to special elections in Green. Montana I left as red even though it's technically open, because of Zinke is supposed to be appointed to be secretary of the interior.
+
 {% raw %}
 <style>
 
@@ -94,10 +99,16 @@ function ready(error, us, congress, PVI) {
           if(PVI[d.id].Flip === 'FALSE' && PVI[d.id].Current == 'D') {
             return '#B5D3E7';
           }
+          if(PVI[d.id].Flip === 'OPEN') {
+            return '#3f704d';
+          }
           return '#663399';
       })
     .append("title")
-      .text(function(d) { return d.id % 100; })
+      .text(function(d) { if(PVI[d.id] == null) {
+          return 'Open\nDistrict: ' + (d.id % 100);
+      } 
+        return PVI[d.id].Rep +'\nDistrict: ' + (d.id % 100); })
       
 
   svg.append("path")
