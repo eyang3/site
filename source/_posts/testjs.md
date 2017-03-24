@@ -10,6 +10,8 @@ For the 2018 Elections, the districts in pink are those that are strongly Republ
 Blindly grabbing data from Wikipedia is dumb. Previous map had old data of the 114th Congress. Current map is of the 115th congress. Some updates are that I've added in the Representative's name, as well as listed the open seats due to special elections in Green. Montana I left as red even though it's technically open, because while Zinke is supposed to be appointed to be secretary of the interior, the chances of flipping Montana are probably really low.
 
 {% raw %}
+<div class="entry1">
+</div>
 <style>
 
 path {
@@ -59,7 +61,7 @@ var projection = d3.geo.albersUsa()
 var path = d3.geo.path()
     .projection(projection);
 
-var svg = d3.select("div.entry").append("svg")
+var svg = d3.select("div.entry1").append("svg")
     .attr("width", width)
     .attr("height", height)    
 
