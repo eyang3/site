@@ -13,7 +13,7 @@ When playing with the map-reduce tool for doing deferred index creation, I ran i
   --schema MY_SCHEMA --data-table MY_TABLE --index-table ASYNC_IDX
   --output-path ASYNC_IDX_HFILES`
 
-  In any case, every combination of "myTable", \"myTable\", '\"myTable\"', failed. Now the wonderful thing about Open Source Software is that the code is available on Github.
+  In any case, every combination of "myTable", \"myTable\", '\"myTable\"', failed. Now the wonderful thing about Open Source Software is that the code is available on Github, so I can download the code and actually step through to figure out why it is or isn't working.
 
   Now in summary for anyone who is at all interested is that there are two bugs. The first bug is that the apache common cli library does not actually handle the presence of quotes within a command line parameter properly. The second bug is that the quote removal is done in two places in the Map Reduce Code. [Removal 1](https://github.com/apache/phoenix/blob/master/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/index/IndexTool.java#L455), [Removal 2]((https://github.com/apache/phoenix/blob/master/phoenix-core/src/main/java/org/apache/phoenix/mapreduce/index/IndexTool.java#L455)) so even if it had been properly double quoted through the CLI parser, it would still have failed. Now the wonderful thing about open source is that the code is out there.
 
