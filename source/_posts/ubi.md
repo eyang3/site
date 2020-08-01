@@ -1,0 +1,16 @@
+---
+title: The Pros and Cons of UBI
+date: 2020-07-31 19:41:42
+tags: Musings
+---
+UBI or universal basic income has been promoted as one of the policies that might help us transition to the post industrial age. With more and more work being done by robots, and ML enhanced software (I loathe to use the term AI), the number of people required to produce the same amount of goods and services is falling. Because of this, there is an increasingly desperate competition for a smaller and smaller number of well paying jobs. On a purely macro economic level, UBI is a mechanism that provides a floor for aggregate demand. By circulating money back into the economy, it allows individuals to buy goods and services. Without UBI, it is very possible that economic growth would end, not because of a lack of innovation, but rather because of the lack of demand. 
+
+An optimist such as Andrew Yang would suggest that with UBI, there would be a significant revaluing of the American economy because people would have the freedom to pursue things that really interest them. They would feel free to pursue things like community service, art and self edification. People like Andrew Yang believe that a system like UBI would allow people to become different versions of Plato's ideal philosopher. 
+
+As an aside, Aristotle and Plato both believed that labor was something that had value, but did not increase value, and instead argued for a class of individuals who would be free form traditional work to pursue the "virtues." Other Greek philosophers such as Epicurus believed that one should work for the love of the craft rather than money. It should be noted that most of the advances in philosophy, government, art and mathematics that happened in the ancient world arose from the minds of these men of leisure, i.e. individuals who had the time and the resources to devote to thought rather than labor. Individuals who argue the virtues of UBI essentially believe that we as individuals all have this potential within them. 
+
+The pessimists on the other hand believe that if individuals are given sufficient income to maintain a basic standard of living, that they will essentially stop working. And frankly the adage that idle hands are the tool of the devil in many cases ring true. They can point to the fact that lottery winners in many cases go bankrupt and end up spending most of their money on drugs, alcohol, consumerism, etc. And for a great deal of the population this is also true, as evidenced by the number of individuals in middle America who are collecting Social Security Disability and addicted to opioids. 
+
+I believe that this is also the fundamental divide within this country. The fundamental divide is between individuals who are optimistic in the inherent goodness of mankind and the individuals who are pessimistic that individuals without an external motivating factor will not do the right thing, and the scary part is that both individuals are correct for a certain subset of the population. The truly scary thing about this thought is that with the self-sorting that has occurred within this country, we've basically amplified the problem. 
+
+That being said, I'm on the side of the optimists and I believe that people when given the opportunity to do something of interest will take it. I'm just not blind to the possibility that they won't.
